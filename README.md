@@ -6,4 +6,9 @@ WEBSITE NAME : NEWSHUB
 PLUGIN NAME: CUSTOM SOCIAL
 TEAM MEMBER : AMRAH IMTIAZ
 
+Theme How to Use:
+
+Plugin How to Use:
+![NewsHub and Custom Social](https://github.com/AmrahImtiaz/HackByte/raw/main/1.jpg)
+
 
