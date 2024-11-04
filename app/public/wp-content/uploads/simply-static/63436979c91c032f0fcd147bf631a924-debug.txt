@@ -1,0 +1,1311 @@
+[2024-11-04 16:43:43] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-11-04 16:43:43] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, create_zip_archive, wrapup
+[2024-11-04 16:43:43] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-11-04 16:43:43] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-11-04 16:43:43] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-11-04 16:43:43] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-11-04 16:43:44] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623\
+[2024-11-04 16:43:44] [class-ss-setup-task.php:72] Adding origin URL to queue: http://newshub.local/
+[2024-11-04 16:43:44] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-11-04 16:43:44] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-04 16:43:44] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-04 16:43:44] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-11-04 16:43:44] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/
+[2024-11-04 16:43:44] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-11-04 16:43:44] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:43:44] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728f9c02f05e-Ki40cE.tmp
+[2024-11-04 16:43:44] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/?simply_static_page=296
+[2024-11-04 16:43:44] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/?simply_static_page=296
+[2024-11-04 16:43:48] [class-ss-url-fetcher.php:103] Filesize: 120215 bytes
+[2024-11-04 16:43:48] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-04 16:43:48] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-11-04 16:43:48] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728f9c02f05e-Ki40cE.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/index.html
+[2024-11-04 16:43:48] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:43:50] [class-ss-fetch-urls-task.php:159] Adding 59 URLs to the queue
+[2024-11-04 16:43:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:43:52] [class-ss-page.php:119] Checking Content Identical:6ae92e8caa5101651c757018f12d60950616e9f7===. Value: FALSE
+[2024-11-04 16:43:52] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-11-04 16:43:52] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-04 16:43:52] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-04 16:43:52] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-04 16:43:52] [class-ss-fetch-urls-task.php:69] Total pages: 59; Pages remaining: 58
+[2024-11-04 16:43:52] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/pakistan-ranked-among-top-countries-in-cybersecurity-says-it-minister/
+[2024-11-04 16:43:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 59
+[2024-11-04 16:43:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:43:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728f9c876254-N8CHvi.tmp
+[2024-11-04 16:43:52] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/pakistan-ranked-among-top-countries-in-cybersecurity-says-it-minister/?simply_static_page=297
+[2024-11-04 16:43:52] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/pakistan-ranked-among-top-countries-in-cybersecurity-says-it-minister/?simply_static_page=297
+[2024-11-04 16:44:22] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:44:22] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30004 milliseconds with 0 bytes received
+[2024-11-04 16:44:22] [class-ss-url-fetcher.php:107] object(WP_Error)#1376 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30004 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:44:22] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/sample-page/
+[2024-11-04 16:44:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 59
+[2024-11-04 16:44:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:44:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728f9e688a86-0qyqoN.tmp
+[2024-11-04 16:44:22] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/sample-page/?simply_static_page=298
+[2024-11-04 16:44:22] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/sample-page/?simply_static_page=298
+[2024-11-04 16:44:23] [class-ss-url-fetcher.php:103] Filesize: 46243 bytes
+[2024-11-04 16:44:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-04 16:44:23] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/index.html
+[2024-11-04 16:44:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728f9e688a86-0qyqoN.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/sample-page/index.html
+[2024-11-04 16:44:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:44:25] [class-ss-fetch-urls-task.php:159] Adding 35 URLs to the queue
+[2024-11-04 16:44:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:44:25] [class-ss-page.php:119] Checking Content Identical:39bd93729834eb856ba264dffbc6223fd27f5b92===. Value: FALSE
+[2024-11-04 16:44:25] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/at-least-95-people-dead-in-spains-worst-floods-in-three-decades/
+[2024-11-04 16:44:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 59
+[2024-11-04 16:44:25] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:44:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728f9e98fd0c-eLTkHE.tmp
+[2024-11-04 16:44:25] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/at-least-95-people-dead-in-spains-worst-floods-in-three-decades/?simply_static_page=299
+[2024-11-04 16:44:25] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/at-least-95-people-dead-in-spains-worst-floods-in-three-decades/?simply_static_page=299
+[2024-11-04 16:44:55] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:44:55] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30002 milliseconds with 0 bytes received
+[2024-11-04 16:44:55] [class-ss-url-fetcher.php:107] object(WP_Error)#1302 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30002 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:44:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/americas-fight-with-inflation-has-been-won-just-in-time-for-a-bigger-battle/
+[2024-11-04 16:44:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 59
+[2024-11-04 16:44:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:44:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fa079a19a-VYLu4x.tmp
+[2024-11-04 16:44:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/americas-fight-with-inflation-has-been-won-just-in-time-for-a-bigger-battle/?simply_static_page=300
+[2024-11-04 16:44:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/americas-fight-with-inflation-has-been-won-just-in-time-for-a-bigger-battle/?simply_static_page=300
+[2024-11-04 16:44:56] [class-ss-url-fetcher.php:103] Filesize: 55803 bytes
+[2024-11-04 16:44:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-04 16:44:56] [class-ss-url-fetcher.php:233] New filename for static page: /americas-fight-with-inflation-has-been-won-just-in-time-for-a-bigger-battle/index.html
+[2024-11-04 16:44:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fa079a19a-VYLu4x.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/americas-fight-with-inflation-has-been-won-just-in-time-for-a-bigger-battle/index.html
+[2024-11-04 16:44:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:44:57] [class-ss-fetch-urls-task.php:159] Adding 43 URLs to the queue
+[2024-11-04 16:44:57] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:44:57] [class-ss-page.php:119] Checking Content Identical:231710d29b10b80bff087e6b673feadd732034e4===. Value: FALSE
+[2024-11-04 16:44:57] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/schools-close-in-lahore-as-pollution-hits-record-level/
+[2024-11-04 16:44:57] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 59
+[2024-11-04 16:44:57] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:44:57] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fa098fba4-z1Im1k.tmp
+[2024-11-04 16:44:57] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/schools-close-in-lahore-as-pollution-hits-record-level/?simply_static_page=301
+[2024-11-04 16:44:57] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/schools-close-in-lahore-as-pollution-hits-record-level/?simply_static_page=301
+[2024-11-04 16:45:27] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:45:27] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30009 milliseconds with 0 bytes received
+[2024-11-04 16:45:27] [class-ss-url-fetcher.php:107] object(WP_Error)#1138 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30009 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:45:27] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/a-mesmerising-mirage-how-monets-paintings-changed-the-way-we-see-london/
+[2024-11-04 16:45:27] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 59
+[2024-11-04 16:45:27] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:45:27] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fa27a02e2-aykIxL.tmp
+[2024-11-04 16:45:27] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/a-mesmerising-mirage-how-monets-paintings-changed-the-way-we-see-london/?simply_static_page=302
+[2024-11-04 16:45:27] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/a-mesmerising-mirage-how-monets-paintings-changed-the-way-we-see-london/?simply_static_page=302
+[2024-11-04 16:45:28] [class-ss-url-fetcher.php:103] Filesize: 64140 bytes
+[2024-11-04 16:45:28] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-04 16:45:28] [class-ss-url-fetcher.php:233] New filename for static page: /a-mesmerising-mirage-how-monets-paintings-changed-the-way-we-see-london/index.html
+[2024-11-04 16:45:28] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fa27a02e2-aykIxL.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/a-mesmerising-mirage-how-monets-paintings-changed-the-way-we-see-london/index.html
+[2024-11-04 16:45:28] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:45:29] [class-ss-fetch-urls-task.php:159] Adding 41 URLs to the queue
+[2024-11-04 16:45:29] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:45:29] [class-ss-page.php:119] Checking Content Identical:f68466d4ec9057bd5d7a8d8f953565e55decaa84===. Value: FALSE
+[2024-11-04 16:45:29] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/ai-and-bots-allegedly-used-to-fraudulently-boost-music-streams/
+[2024-11-04 16:45:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 59
+[2024-11-04 16:45:29] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:45:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fa29e8487-bJrq1D.tmp
+[2024-11-04 16:45:29] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/ai-and-bots-allegedly-used-to-fraudulently-boost-music-streams/?simply_static_page=303
+[2024-11-04 16:45:29] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/ai-and-bots-allegedly-used-to-fraudulently-boost-music-streams/?simply_static_page=303
+[2024-11-04 16:45:59] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:45:59] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30007 milliseconds with 0 bytes received
+[2024-11-04 16:45:59] [class-ss-url-fetcher.php:107] object(WP_Error)#1480 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30007 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:45:59] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/essay-the-wound-that-is-palestine/
+[2024-11-04 16:46:00] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 59
+[2024-11-04 16:46:00] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:46:00] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fa480562f-unAheD.tmp
+[2024-11-04 16:46:00] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/essay-the-wound-that-is-palestine/?simply_static_page=304
+[2024-11-04 16:46:00] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/essay-the-wound-that-is-palestine/?simply_static_page=304
+[2024-11-04 16:46:00] [class-ss-url-fetcher.php:103] Filesize: 72135 bytes
+[2024-11-04 16:46:00] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-04 16:46:00] [class-ss-url-fetcher.php:233] New filename for static page: /essay-the-wound-that-is-palestine/index.html
+[2024-11-04 16:46:00] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fa480562f-unAheD.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/essay-the-wound-that-is-palestine/index.html
+[2024-11-04 16:46:00] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:46:02] [class-ss-fetch-urls-task.php:159] Adding 46 URLs to the queue
+[2024-11-04 16:46:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:46:02] [class-ss-page.php:119] Checking Content Identical:e84a3bc2d276bf0821f29a4428ce45033d97268d===. Value: FALSE
+[2024-11-04 16:46:02] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/category/news/
+[2024-11-04 16:46:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 59
+[2024-11-04 16:46:02] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:46:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fa4a7fe54-XiMwJQ.tmp
+[2024-11-04 16:46:02] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/category/news/?simply_static_page=305
+[2024-11-04 16:46:02] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/category/news/?simply_static_page=305
+[2024-11-04 16:46:32] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:46:32] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30020 milliseconds with 0 bytes received
+[2024-11-04 16:46:32] [class-ss-url-fetcher.php:107] object(WP_Error)#1506 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30020 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:46:32] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/author/root/
+[2024-11-04 16:46:32] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 59
+[2024-11-04 16:46:32] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:46:32] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fa6892584-rwZtrv.tmp
+[2024-11-04 16:46:32] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/author/root/?simply_static_page=306
+[2024-11-04 16:46:32] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/author/root/?simply_static_page=306
+[2024-11-04 16:46:33] [class-ss-url-fetcher.php:103] Filesize: 64845 bytes
+[2024-11-04 16:46:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-04 16:46:33] [class-ss-url-fetcher.php:233] New filename for static page: /author/root/index.html
+[2024-11-04 16:46:33] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fa6892584-rwZtrv.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/author/root/index.html
+[2024-11-04 16:46:33] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:46:34] [class-ss-fetch-urls-task.php:159] Adding 52 URLs to the queue
+[2024-11-04 16:46:34] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:46:34] [class-ss-page.php:119] Checking Content Identical:c16c4e1cd47376c7a1b8776c3e51564ee8428902===. Value: FALSE
+[2024-11-04 16:46:34] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/category/tech/
+[2024-11-04 16:46:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 59
+[2024-11-04 16:46:34] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:46:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fa6a8d2b7-IlUFUC.tmp
+[2024-11-04 16:46:34] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/category/tech/?simply_static_page=307
+[2024-11-04 16:46:34] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/category/tech/?simply_static_page=307
+[2024-11-04 16:47:04] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:47:04] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30016 milliseconds with 0 bytes received
+[2024-11-04 16:47:04] [class-ss-url-fetcher.php:107] object(WP_Error)#1159 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30016 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:47:04] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/category/arts-culture/
+[2024-11-04 16:47:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 59
+[2024-11-04 16:47:04] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:47:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fa88a12ea-UyeqIF.tmp
+[2024-11-04 16:47:04] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/category/arts-culture/?simply_static_page=308
+[2024-11-04 16:47:04] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/category/arts-culture/?simply_static_page=308
+[2024-11-04 16:47:05] [class-ss-url-fetcher.php:103] Filesize: 46399 bytes
+[2024-11-04 16:47:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-04 16:47:05] [class-ss-url-fetcher.php:233] New filename for static page: /category/arts-culture/index.html
+[2024-11-04 16:47:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fa88a12ea-UyeqIF.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/category/arts-culture/index.html
+[2024-11-04 16:47:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:47:06] [class-ss-fetch-urls-task.php:159] Adding 38 URLs to the queue
+[2024-11-04 16:47:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:47:06] [class-ss-page.php:119] Checking Content Identical:21617a7f48c72976f78c526bf8c23364767bdea7===. Value: FALSE
+[2024-11-04 16:47:06] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/category/finance/
+[2024-11-04 16:47:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 59
+[2024-11-04 16:47:06] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:47:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fa8a6a5d4-oOcNzX.tmp
+[2024-11-04 16:47:06] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/category/finance/?simply_static_page=309
+[2024-11-04 16:47:06] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/category/finance/?simply_static_page=309
+[2024-11-04 16:47:36] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:47:36] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30011 milliseconds with 0 bytes received
+[2024-11-04 16:47:36] [class-ss-url-fetcher.php:107] object(WP_Error)#1495 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30011 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:47:36] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/pakistan-unable-to-launch-bonds/
+[2024-11-04 16:47:36] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 59
+[2024-11-04 16:47:36] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:47:36] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faa875f54-af0Dbx.tmp
+[2024-11-04 16:47:36] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/pakistan-unable-to-launch-bonds/?simply_static_page=310
+[2024-11-04 16:47:36] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/pakistan-unable-to-launch-bonds/?simply_static_page=310
+[2024-11-04 16:47:36] [class-ss-url-fetcher.php:103] Filesize: 55245 bytes
+[2024-11-04 16:47:36] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-11-04 16:47:36] [class-ss-url-fetcher.php:233] New filename for static page: /pakistan-unable-to-launch-bonds/index.html
+[2024-11-04 16:47:36] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faa875f54-af0Dbx.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/pakistan-unable-to-launch-bonds/index.html
+[2024-11-04 16:47:36] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:47:38] [class-ss-fetch-urls-task.php:159] Adding 44 URLs to the queue
+[2024-11-04 16:47:38] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:47:38] [class-ss-page.php:119] Checking Content Identical:95c4bc43b429f63d7a3fde311aafb2d3156f0c15===. Value: FALSE
+[2024-11-04 16:47:38] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/2024/11/
+[2024-11-04 16:47:38] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 59
+[2024-11-04 16:47:38] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:47:38] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faaa2b629-ihG8fx.tmp
+[2024-11-04 16:47:38] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/2024/11/?simply_static_page=311
+[2024-11-04 16:47:38] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/2024/11/?simply_static_page=311
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30007 milliseconds with 0 bytes received
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:107] object(WP_Error)#1048 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30007 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/3708-150x150-1.avif
+[2024-11-04 16:48:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 59
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac83b19e-VeBmPp.tmp
+[2024-11-04 16:48:08] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/3708-150x150-1.avif?simply_static_page=312
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/3708-150x150-1.avif?simply_static_page=312
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:103] Filesize: 3560 bytes
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/octet-stream
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/3708-150x150-1.avif
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac83b19e-VeBmPp.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/3708-150x150-1.avif
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:08] [class-ss-page.php:119] Checking Content Identical:0813995a2b4abad5700689447b96d9312be8047d===. Value: FALSE
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/1701516944-300x200.jpg
+[2024-11-04 16:48:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 59
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac85e8d5-qYbbfo.tmp
+[2024-11-04 16:48:08] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/1701516944-300x200.jpg?simply_static_page=313
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/1701516944-300x200.jpg?simply_static_page=313
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:103] Filesize: 20040 bytes
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/1701516944-300x200.jpg
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac85e8d5-qYbbfo.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/1701516944-300x200.jpg
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:08] [class-ss-page.php:119] Checking Content Identical:279f8092753d958687779c4bd9f7d789ecefc212===. Value: FALSE
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/1701516944-600x400.jpg
+[2024-11-04 16:48:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 59
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac86bc58-vZ4jt2.tmp
+[2024-11-04 16:48:08] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/1701516944-600x400.jpg?simply_static_page=314
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/1701516944-600x400.jpg?simply_static_page=314
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:103] Filesize: 38221 bytes
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/1701516944-600x400.jpg
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac86bc58-vZ4jt2.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/1701516944-600x400.jpg
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:08] [class-ss-page.php:119] Checking Content Identical:2e045d626a2de6012bc75379893030fb01e9dbc0===. Value: FALSE
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-300x200.webp
+[2024-11-04 16:48:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 59
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac87a667-suJbVw.tmp
+[2024-11-04 16:48:08] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-300x200.webp?simply_static_page=315
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-300x200.webp?simply_static_page=315
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:103] Filesize: 15536 bytes
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-300x200.webp
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac87a667-suJbVw.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-300x200.webp
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:08] [class-ss-page.php:119] Checking Content Identical:f5aaf45d224240033807542806e0a29684eee7dc===. Value: FALSE
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-600x400.webp
+[2024-11-04 16:48:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 59
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac898ae0-I0xN1U.tmp
+[2024-11-04 16:48:08] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-600x400.webp?simply_static_page=316
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-600x400.webp?simply_static_page=316
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:103] Filesize: 45622 bytes
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-600x400.webp
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac898ae0-I0xN1U.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-600x400.webp
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:08] [class-ss-page.php:119] Checking Content Identical:864e232bafd10f9096f4fb2dd15f9d967e918d54===. Value: FALSE
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-300x200.jpg
+[2024-11-04 16:48:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 59
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac8b620e-yvIldL.tmp
+[2024-11-04 16:48:08] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-300x200.jpg?simply_static_page=317
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-300x200.jpg?simply_static_page=317
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:103] Filesize: 13060 bytes
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-300x200.jpg
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac8b620e-yvIldL.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-300x200.jpg
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:08] [class-ss-page.php:119] Checking Content Identical:37ac98dbfc7343b8628ab11aa123e8ef072a3662===. Value: FALSE
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-600x400.jpg
+[2024-11-04 16:48:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 59
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac8d628c-eigYJB.tmp
+[2024-11-04 16:48:08] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-600x400.jpg?simply_static_page=318
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-600x400.jpg?simply_static_page=318
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:103] Filesize: 34566 bytes
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-600x400.jpg
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac8d628c-eigYJB.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-600x400.jpg
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:08] [class-ss-page.php:119] Checking Content Identical:c77f64a727dc14da6fb32a3e880be7ccba8f0ca7===. Value: FALSE
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/DALL·E-2022-10-06-23.11.07-people-playing-piano-abstract-saturated-and-warm-colors-trending-on-artstation-wide-shot-diverse-300x200.webp
+[2024-11-04 16:48:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 59
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac8e35cb-cQ7esY.tmp
+[2024-11-04 16:48:08] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/DALL·E-2022-10-06-23.11.07-people-playing-piano-abstract-saturated-and-warm-colors-trending-on-artstation-wide-shot-diverse-300x200.webp?simply_static_page=319
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/DALL·E-2022-10-06-23.11.07-people-playing-piano-abstract-saturated-and-warm-colors-trending-on-artstation-wide-shot-diverse-300x200.webp?simply_static_page=319
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:103] Filesize: 14694 bytes
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/DALL·E-2022-10-06-23.11.07-people-playing-piano-abstract-saturated-and-warm-colors-trending-on-artstation-wide-shot-diverse-300x200.webp
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac8e35cb-cQ7esY.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/DALL·E-2022-10-06-23.11.07-people-playing-piano-abstract-saturated-and-warm-colors-trending-on-artstation-wide-shot-diverse-300x200.webp
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:08] [class-ss-page.php:119] Checking Content Identical:d3487e628ac32adfc79909a27dfeda4b1bf58360===. Value: FALSE
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/DALL·E-2022-10-06-23.11.07-people-playing-piano-abstract-saturated-and-warm-colors-trending-on-artstation-wide-shot-diverse-600x400.webp
+[2024-11-04 16:48:08] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 59
+[2024-11-04 16:48:08] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac8ee783-VigRm2.tmp
+[2024-11-04 16:48:08] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/DALL·E-2022-10-06-23.11.07-people-playing-piano-abstract-saturated-and-warm-colors-trending-on-artstation-wide-shot-diverse-600x400.webp?simply_static_page=320
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/DALL·E-2022-10-06-23.11.07-people-playing-piano-abstract-saturated-and-warm-colors-trending-on-artstation-wide-shot-diverse-600x400.webp?simply_static_page=320
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:103] Filesize: 36402 bytes
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/DALL·E-2022-10-06-23.11.07-people-playing-piano-abstract-saturated-and-warm-colors-trending-on-artstation-wide-shot-diverse-600x400.webp
+[2024-11-04 16:48:08] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac8ee783-VigRm2.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/DALL·E-2022-10-06-23.11.07-people-playing-piano-abstract-saturated-and-warm-colors-trending-on-artstation-wide-shot-diverse-600x400.webp
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:80cc3014629c2a601ba4b90f0bce99b0e1a8feec===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/69e00be05f7eb68fb22adfcff784f799-300x200.jpg
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac906619-Dgsha3.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/69e00be05f7eb68fb22adfcff784f799-300x200.jpg?simply_static_page=321
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/69e00be05f7eb68fb22adfcff784f799-300x200.jpg?simply_static_page=321
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 15767 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/69e00be05f7eb68fb22adfcff784f799-300x200.jpg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac906619-Dgsha3.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/69e00be05f7eb68fb22adfcff784f799-300x200.jpg
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:4cb7782d225ec96583311291a9ebce7db8333641===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/69e00be05f7eb68fb22adfcff784f799-600x400.jpg
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac9106cd-tPaqfD.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/69e00be05f7eb68fb22adfcff784f799-600x400.jpg?simply_static_page=322
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/69e00be05f7eb68fb22adfcff784f799-600x400.jpg?simply_static_page=322
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 46324 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/69e00be05f7eb68fb22adfcff784f799-600x400.jpg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac9106cd-tPaqfD.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/69e00be05f7eb68fb22adfcff784f799-600x400.jpg
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:f4da289afb08aa9cca3ba5740bce7b9ef12ccea7===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-600x400.jpg
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac91b564-9PTNfL.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-600x400.jpg?simply_static_page=323
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-600x400.jpg?simply_static_page=323
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 55600 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/671478a741ef5-600x400.jpg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac91b564-9PTNfL.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/671478a741ef5-600x400.jpg
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:3c4d24e9dc3a14413495c3298d521da47a385b11===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/1701516944.jpg
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac925cf9-nu5Cxf.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/1701516944.jpg?simply_static_page=324
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/1701516944.jpg?simply_static_page=324
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 150665 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/1701516944.jpg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac925cf9-nu5Cxf.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/1701516944.jpg
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:2af0ba48728751c3895a1821889379bb6643752e===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/1701516944-300x169.jpg
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac930719-WWRX9Y.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/1701516944-300x169.jpg?simply_static_page=325
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/1701516944-300x169.jpg?simply_static_page=325
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 18639 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/1701516944-300x169.jpg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac930719-WWRX9Y.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/1701516944-300x169.jpg
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:e2a68df081b53a45288d1544aa8012ab49e73cdc===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/1701516944-768x434.jpg
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac93cc28-eOlof8.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/1701516944-768x434.jpg?simply_static_page=326
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/1701516944-768x434.jpg?simply_static_page=326
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 45080 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/1701516944-768x434.jpg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac93cc28-eOlof8.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/1701516944-768x434.jpg
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:34e600e97e74a11550d0601ee50cc3910e209534===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg.webp
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac94a30b-ahIV3h.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg.webp?simply_static_page=327
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg.webp?simply_static_page=327
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 64280 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg.webp
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac94a30b-ahIV3h.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg.webp
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:fc32ceb24dab9fc16730e5d0eace0220183fe55d===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-300x169.webp
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac958607-8oLTHf.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-300x169.webp?simply_static_page=328
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-300x169.webp?simply_static_page=328
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 14222 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-300x169.webp
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac958607-8oLTHf.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-300x169.webp
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:fa7ff73d5c323f497484934cdc38710b2b93ec26===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-768x432.webp
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac9645ea-ofWbua.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-768x432.webp?simply_static_page=329
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-768x432.webp?simply_static_page=329
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 62388 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-768x432.webp
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac9645ea-ofWbua.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/77898210-99dc-11ef-82c3-45a801b7330b.jpg-768x432.webp
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:dcad2bc6b78612aa79ec1e9dd7679f6346fc2569===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc.jpg
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac97005b-3kOYR6.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc.jpg?simply_static_page=330
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc.jpg?simply_static_page=330
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 41757 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc.jpg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac97005b-3kOYR6.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc.jpg
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:d6a617e849f52b001b35bfddeddde89090530d7e===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-300x190.jpg
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac97dd7a-ymJGHz.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-300x190.jpg?simply_static_page=331
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-300x190.jpg?simply_static_page=331
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 12562 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-300x190.jpg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac97dd7a-ymJGHz.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-300x190.jpg
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:1d2c80b2853cdbcb826571c86c1c5caa4b6a0065===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-150x95.jpg
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac989237-hN7PBd.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-150x95.jpg?simply_static_page=332
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-150x95.jpg?simply_static_page=332
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 4931 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-150x95.jpg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac989237-hN7PBd.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/1ce4ede27a8493e0350099084e25b3fc-150x95.jpg
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:982186c416e12bac07223821e9980ba4d8965ad8===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/euro-150x150-1.webp
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac9962ab-OrwGxZ.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/euro-150x150-1.webp?simply_static_page=333
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/euro-150x150-1.webp?simply_static_page=333
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 6528 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/webp
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/euro-150x150-1.webp
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac9962ab-OrwGxZ.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/euro-150x150-1.webp
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:31aa7128e239155f38922f374ed97c1d7a18605f===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-300x200.jpg
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac9a47b3-9y6aab.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-300x200.jpg?simply_static_page=334
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-300x200.jpg?simply_static_page=334
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 18100 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/671478a741ef5-300x200.jpg
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac9a47b3-9y6aab.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/671478a741ef5-300x200.jpg
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:9f8cdf706726b56e7ff3a27ac16c3fe91b388bdf===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-includes/js/jquery/jquery.min.js
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac9b424a-Z51AVG.tmp
+[2024-11-04 16:48:09] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=335
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-includes/js/jquery/jquery.min.js?simply_static_page=335
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-11-04 16:48:09] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac9b424a-Z51AVG.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-includes/js/jquery/jquery.min.js
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:09] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-04 16:48:09] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 59
+[2024-11-04 16:48:09] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fac9f3dec-cwq73R.tmp
+[2024-11-04 16:48:10] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=336
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=336
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fac9f3dec-cwq73R.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:10] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/slick/slick.min.js
+[2024-11-04 16:48:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 59
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faca26303-LehwVV.tmp
+[2024-11-04 16:48:10] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/slick/slick.min.js?simply_static_page=337
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/slick/slick.min.js?simply_static_page=337
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:103] Filesize: 42863 bytes
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/slick/slick.min.js
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faca26303-LehwVV.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/slick/slick.min.js
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:10] [class-ss-page.php:119] Checking Content Identical:3b41b3bc956685015a347a2238e71db29dfa0dbb===. Value: FALSE
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/js-marquee/jquery.marquee.min.js
+[2024-11-04 16:48:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 59
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faca3e0a5-BZM8WS.tmp
+[2024-11-04 16:48:10] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/js-marquee/jquery.marquee.min.js?simply_static_page=338
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/js-marquee/jquery.marquee.min.js?simply_static_page=338
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:103] Filesize: 9029 bytes
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/js-marquee/jquery.marquee.min.js
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faca3e0a5-BZM8WS.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/js-marquee/jquery.marquee.min.js
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:10] [class-ss-page.php:119] Checking Content Identical:c7836fb3eb61f96e6c8bc0344d77cf5618798315===. Value: FALSE
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/js/navigation.js
+[2024-11-04 16:48:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 59
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faca50014-ZerCGN.tmp
+[2024-11-04 16:48:10] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/js/navigation.js?simply_static_page=339
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/js/navigation.js?simply_static_page=339
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:103] Filesize: 5521 bytes
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/js/navigation.js
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faca50014-ZerCGN.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/js/navigation.js
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:10] [class-ss-page.php:119] Checking Content Identical:4dabbfd196ffedc78a57e388628cd3503c0d27d8===. Value: FALSE
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/js/theme.js
+[2024-11-04 16:48:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 59
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faca5ae35-QUv2gZ.tmp
+[2024-11-04 16:48:10] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/js/theme.js?simply_static_page=340
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/js/theme.js?simply_static_page=340
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:103] Filesize: 20443 bytes
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/js/theme.js
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faca5ae35-QUv2gZ.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/js/theme.js
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:10] [class-ss-page.php:119] Checking Content Identical:c905ec6ee921cd3f3ef76dcfed47fce7339183bd===. Value: FALSE
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/waypoint/jquery.waypoint.min.js
+[2024-11-04 16:48:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 59
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faca6e8e4-VmuLPh.tmp
+[2024-11-04 16:48:10] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/waypoint/jquery.waypoint.min.js?simply_static_page=341
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/waypoint/jquery.waypoint.min.js?simply_static_page=341
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:103] Filesize: 9028 bytes
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/waypoint/jquery.waypoint.min.js
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faca6e8e4-VmuLPh.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/waypoint/jquery.waypoint.min.js
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:10] [class-ss-page.php:119] Checking Content Identical:56bdb149d9baf64474a4c24ae66445769a28254e===. Value: FALSE
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/feed/
+[2024-11-04 16:48:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 59
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faca8d4ac-DCdS3J.tmp
+[2024-11-04 16:48:10] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/feed/?simply_static_page=342
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/feed/?simply_static_page=342
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:103] Filesize: 73605 bytes
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faca8d4ac-DCdS3J.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/feed/index.xml
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:159] Adding 18 URLs to the queue
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:10] [class-ss-page.php:119] Checking Content Identical:5288032e60f4024f304f1ed3f02b2d0f6392d171===. Value: FALSE
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/comments/feed/
+[2024-11-04 16:48:10] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 59
+[2024-11-04 16:48:10] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728facaf3061-zHs69j.tmp
+[2024-11-04 16:48:10] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/comments/feed/?simply_static_page=343
+[2024-11-04 16:48:10] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/comments/feed/?simply_static_page=343
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:107] object(WP_Error)#1048 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30003 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-includes/css/dist/block-library/style.min.css
+[2024-11-04 16:48:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 59
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fae906a73-Ift7mY.tmp
+[2024-11-04 16:48:41] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=344
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=344
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fae906a73-Ift7mY.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-includes/css/dist/block-library/style.min.css
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:41] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/css/all.min.css
+[2024-11-04 16:48:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 59
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fae926e3e-ACHF3D.tmp
+[2024-11-04 16:48:41] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/css/all.min.css?simply_static_page=345
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/css/all.min.css?simply_static_page=345
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:103] Filesize: 102217 bytes
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/fontawesome/css/all.min.css
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fae926e3e-ACHF3D.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/fontawesome/css/all.min.css
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:159] Adding 8 URLs to the queue
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:41] [class-ss-page.php:119] Checking Content Identical:84ebf53e28f1a794884ce08d321804f414e13543===. Value: FALSE
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/slick/slick.css
+[2024-11-04 16:48:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 59
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fae9692b8-PWQdEf.tmp
+[2024-11-04 16:48:41] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/slick/slick.css?simply_static_page=346
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/slick/slick.css?simply_static_page=346
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:103] Filesize: 1776 bytes
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/slick/slick.css
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fae9692b8-PWQdEf.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/slick/slick.css
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:41] [class-ss-page.php:119] Checking Content Identical:a94a059b3178b4adec09e3281ace2819a30095a4===. Value: FALSE
+[2024-11-04 16:48:41] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 59 pages/files
+[2024-11-04 16:48:41] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-04 16:48:41] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-04 16:48:41] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:69] Total pages: 90; Pages remaining: 39
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/fonts/54dba55f338b85aaa993c5e1a8909340.css
+[2024-11-04 16:48:41] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 90
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fae9caab9-1VDZsU.tmp
+[2024-11-04 16:48:41] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/fonts/54dba55f338b85aaa993c5e1a8909340.css?simply_static_page=347
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/fonts/54dba55f338b85aaa993c5e1a8909340.css?simply_static_page=347
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:103] Filesize: 15748 bytes
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/54dba55f338b85aaa993c5e1a8909340.css
+[2024-11-04 16:48:41] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fae9caab9-1VDZsU.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/fonts/54dba55f338b85aaa993c5e1a8909340.css
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:41] [class-ss-fetch-urls-task.php:159] Adding 10 URLs to the queue
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:42] [class-ss-page.php:119] Checking Content Identical:8b421cfe08e31f411301808a979fdd661d0c2018===. Value: FALSE
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/style.css
+[2024-11-04 16:48:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 90
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faea2bfa0-8RFaqC.tmp
+[2024-11-04 16:48:42] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/style.css?simply_static_page=348
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/style.css?simply_static_page=348
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:103] Filesize: 18580 bytes
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/style.css
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faea2bfa0-8RFaqC.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/style.css
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:42] [class-ss-page.php:119] Checking Content Identical:eff0e8da10e066c5d01effaf55a8ddb7cfdfc89b===. Value: FALSE
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/css/main.css
+[2024-11-04 16:48:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 90
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faea58dba-7iWMA0.tmp
+[2024-11-04 16:48:42] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/css/main.css?simply_static_page=349
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/css/main.css?simply_static_page=349
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:103] Filesize: 198099 bytes
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/css/main.css
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faea58dba-7iWMA0.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/css/main.css
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:159] Adding 1 URLs to the queue
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:42] [class-ss-page.php:119] Checking Content Identical:ecd9ac6686310da9de931d6d58818d5a5415f61f===. Value: FALSE
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/css/add.css
+[2024-11-04 16:48:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 90
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faea7921a-QSz0kb.tmp
+[2024-11-04 16:48:42] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/css/add.css?simply_static_page=350
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/css/add.css?simply_static_page=350
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:103] Filesize: 7876 bytes
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/css/add.css
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faea7921a-QSz0kb.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/css/add.css
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:42] [class-ss-page.php:119] Checking Content Identical:b3e50f8c1bc402e147cb9e5588d8ea73135d5e3b===. Value: FALSE
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/css/loader.css
+[2024-11-04 16:48:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 90
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faea870b9-ktxIdA.tmp
+[2024-11-04 16:48:42] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/css/loader.css?simply_static_page=351
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/css/loader.css?simply_static_page=351
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:103] Filesize: 28437 bytes
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/css/loader.css
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faea870b9-ktxIdA.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/css/loader.css
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:42] [class-ss-page.php:119] Checking Content Identical:68b1657a7799eb08186011bb718b10425837745f===. Value: FALSE
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/css/responsive.css
+[2024-11-04 16:48:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 90
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faea9fb7c-qbJdXX.tmp
+[2024-11-04 16:48:42] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/css/responsive.css?simply_static_page=352
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/css/responsive.css?simply_static_page=352
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:103] Filesize: 15390 bytes
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/css/responsive.css
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faea9fb7c-qbJdXX.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/css/responsive.css
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:42] [class-ss-page.php:119] Checking Content Identical:5de84cf5f0b02319195877fc03ec4a596481392f===. Value: FALSE
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-json/
+[2024-11-04 16:48:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 90
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://newshub.local/wp-json/
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/xmlrpc.php
+[2024-11-04 16:48:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 90
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://newshub.local/xmlrpc.php
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/sample-page/feed/
+[2024-11-04 16:48:42] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 90
+[2024-11-04 16:48:42] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faeabf5c2-IueRNx.tmp
+[2024-11-04 16:48:42] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/sample-page/feed/?simply_static_page=355
+[2024-11-04 16:48:42] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/sample-page/feed/?simply_static_page=355
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:103] Filesize: 727 bytes
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:233] New filename for static page: /sample-page/feed/index.xml
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faeabf5c2-IueRNx.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/sample-page/feed/index.xml
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:49] [class-ss-page.php:119] Checking Content Identical:c368a3979fc7b4058bac7893a6696e7bcbf86747===. Value: FALSE
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-json/wp/v2/pages/2
+[2024-11-04 16:48:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 90
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://newshub.local/wp-json/wp/v2/pages/2
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-json/oembed/1.0/embed
+[2024-11-04 16:48:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 90
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://newshub.local/wp-json/oembed/1.0/embed
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-includes/js/comment-reply.min.js
+[2024-11-04 16:48:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 90
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faf1dffcb-oFHebg.tmp
+[2024-11-04 16:48:49] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-includes/js/comment-reply.min.js?simply_static_page=358
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-includes/js/comment-reply.min.js?simply_static_page=358
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faf1dffcb-oFHebg.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-includes/js/comment-reply.min.js
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:49] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/americas-fight-with-inflation-has-been-won-just-in-time-for-a-bigger-battle/feed/
+[2024-11-04 16:48:49] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 90
+[2024-11-04 16:48:49] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faf1eade5-zaUipc.tmp
+[2024-11-04 16:48:49] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/americas-fight-with-inflation-has-been-won-just-in-time-for-a-bigger-battle/feed/?simply_static_page=359
+[2024-11-04 16:48:49] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/americas-fight-with-inflation-has-been-won-just-in-time-for-a-bigger-battle/feed/?simply_static_page=359
+[2024-11-04 16:48:50] [class-ss-url-fetcher.php:103] Filesize: 946 bytes
+[2024-11-04 16:48:50] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-04 16:48:50] [class-ss-url-fetcher.php:233] New filename for static page: /americas-fight-with-inflation-has-been-won-just-in-time-for-a-bigger-battle/feed/index.xml
+[2024-11-04 16:48:50] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728faf1eade5-zaUipc.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/americas-fight-with-inflation-has-been-won-just-in-time-for-a-bigger-battle/feed/index.xml
+[2024-11-04 16:48:50] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:48:50] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-04 16:48:50] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:48:50] [class-ss-page.php:119] Checking Content Identical:2b7af07ce1c60deb08ed6c86ea33fc0ccac81425===. Value: FALSE
+[2024-11-04 16:48:50] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-json/wp/v2/posts/32
+[2024-11-04 16:48:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 90
+[2024-11-04 16:48:50] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://newshub.local/wp-json/wp/v2/posts/32
+[2024-11-04 16:48:50] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-04 16:48:50] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/a-mesmerising-mirage-how-monets-paintings-changed-the-way-we-see-london/feed/
+[2024-11-04 16:48:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 90
+[2024-11-04 16:48:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:48:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728faf24b07e-pvPv29.tmp
+[2024-11-04 16:48:50] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/a-mesmerising-mirage-how-monets-paintings-changed-the-way-we-see-london/feed/?simply_static_page=361
+[2024-11-04 16:48:50] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/a-mesmerising-mirage-how-monets-paintings-changed-the-way-we-see-london/feed/?simply_static_page=361
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30016 milliseconds with 0 bytes received
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:107] object(WP_Error)#913 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30016 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-json/wp/v2/posts/20
+[2024-11-04 16:49:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 90
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://newshub.local/wp-json/wp/v2/posts/20
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/671478a741ef5.jpg
+[2024-11-04 16:49:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 90
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb10676a9-OXlL5y.tmp
+[2024-11-04 16:49:20] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/671478a741ef5.jpg?simply_static_page=363
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/671478a741ef5.jpg?simply_static_page=363
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:103] Filesize: 153639 bytes
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/671478a741ef5.jpg
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb10676a9-OXlL5y.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/671478a741ef5.jpg
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:49:20] [class-ss-page.php:119] Checking Content Identical:e215da7bedfdb0658a7e7a676652f761588dd6f0===. Value: FALSE
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-300x180.jpg
+[2024-11-04 16:49:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 90
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb1075325-eOuEW9.tmp
+[2024-11-04 16:49:20] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-300x180.jpg?simply_static_page=364
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-300x180.jpg?simply_static_page=364
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:103] Filesize: 16686 bytes
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/671478a741ef5-300x180.jpg
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb1075325-eOuEW9.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/671478a741ef5-300x180.jpg
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:49:20] [class-ss-page.php:119] Checking Content Identical:c5915bdb57c9882cbb0e9dbaf763452d81e68ca7===. Value: FALSE
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-768x461.jpg
+[2024-11-04 16:49:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 90
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb108162a-eegu2I.tmp
+[2024-11-04 16:49:20] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-768x461.jpg?simply_static_page=365
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/uploads/2024/11/671478a741ef5-768x461.jpg?simply_static_page=365
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:103] Filesize: 76571 bytes
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/11/671478a741ef5-768x461.jpg
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb108162a-eegu2I.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/uploads/2024/11/671478a741ef5-768x461.jpg
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:49:20] [class-ss-page.php:119] Checking Content Identical:0218ae36719abc89cc9232e6deb226dc17c3a2ad===. Value: FALSE
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/essay-the-wound-that-is-palestine/feed/
+[2024-11-04 16:49:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 90
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb108df61-FUnmJ4.tmp
+[2024-11-04 16:49:20] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/essay-the-wound-that-is-palestine/feed/?simply_static_page=366
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/essay-the-wound-that-is-palestine/feed/?simply_static_page=366
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:103] Filesize: 814 bytes
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:233] New filename for static page: /essay-the-wound-that-is-palestine/feed/index.xml
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb108df61-FUnmJ4.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/essay-the-wound-that-is-palestine/feed/index.xml
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:49:20] [class-ss-page.php:119] Checking Content Identical:bc6a7e0be087189385aecf8f25509706d3bba924===. Value: FALSE
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-json/wp/v2/posts/7
+[2024-11-04 16:49:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 90
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://newshub.local/wp-json/wp/v2/posts/7
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/author/root/feed/
+[2024-11-04 16:49:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 90
+[2024-11-04 16:49:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb10cd639-vZp2yP.tmp
+[2024-11-04 16:49:20] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/author/root/feed/?simply_static_page=368
+[2024-11-04 16:49:20] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/author/root/feed/?simply_static_page=368
+[2024-11-04 16:49:50] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:49:50] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30014 milliseconds with 0 bytes received
+[2024-11-04 16:49:50] [class-ss-url-fetcher.php:107] object(WP_Error)#930 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30014 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:49:50] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-json/wp/v2/users/1
+[2024-11-04 16:49:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 90
+[2024-11-04 16:49:50] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://newshub.local/wp-json/wp/v2/users/1
+[2024-11-04 16:49:50] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-04 16:49:50] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/category/arts-culture/feed/
+[2024-11-04 16:49:50] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 90
+[2024-11-04 16:49:50] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:49:50] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb2eed01b-W7krLt.tmp
+[2024-11-04 16:49:50] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/category/arts-culture/feed/?simply_static_page=370
+[2024-11-04 16:49:50] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/category/arts-culture/feed/?simply_static_page=370
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:103] Filesize: 16591 bytes
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:233] New filename for static page: /category/arts-culture/feed/index.xml
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb2eed01b-W7krLt.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/category/arts-culture/feed/index.xml
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:49:52] [class-ss-page.php:119] Checking Content Identical:5e8608fd1eb740c7e34be11b33c2e7469d2a6068===. Value: FALSE
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-json/wp/v2/categories/5
+[2024-11-04 16:49:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 90
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://newshub.local/wp-json/wp/v2/categories/5
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/pakistan-unable-to-launch-bonds/feed/
+[2024-11-04 16:49:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 90
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb3072d4b-tNTgMF.tmp
+[2024-11-04 16:49:52] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/pakistan-unable-to-launch-bonds/feed/?simply_static_page=372
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/pakistan-unable-to-launch-bonds/feed/?simply_static_page=372
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:103] Filesize: 813 bytes
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:233] New filename for static page: /pakistan-unable-to-launch-bonds/feed/index.xml
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb3072d4b-tNTgMF.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/pakistan-unable-to-launch-bonds/feed/index.xml
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:49:52] [class-ss-page.php:119] Checking Content Identical:3d17887f96e95cd92cb82d25d1a19c11f700978d===. Value: FALSE
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-json/wp/v2/posts/10
+[2024-11-04 16:49:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 90
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://newshub.local/wp-json/wp/v2/posts/10
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/at-least-95-people-dead-in-spains-worst-floods-in-three-decades/feed/
+[2024-11-04 16:49:52] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 90
+[2024-11-04 16:49:52] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb30ae089-xGBXSi.tmp
+[2024-11-04 16:49:52] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/at-least-95-people-dead-in-spains-worst-floods-in-three-decades/feed/?simply_static_page=374
+[2024-11-04 16:49:52] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/at-least-95-people-dead-in-spains-worst-floods-in-three-decades/feed/?simply_static_page=374
+[2024-11-04 16:50:22] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:50:22] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30060 milliseconds with 0 bytes received
+[2024-11-04 16:50:22] [class-ss-url-fetcher.php:107] object(WP_Error)#935 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30060 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:50:22] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/schools-close-in-lahore-as-pollution-hits-record-level/feed/
+[2024-11-04 16:50:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 90
+[2024-11-04 16:50:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb4ec365e-itgDrb.tmp
+[2024-11-04 16:50:22] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/schools-close-in-lahore-as-pollution-hits-record-level/feed/?simply_static_page=375
+[2024-11-04 16:50:22] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/schools-close-in-lahore-as-pollution-hits-record-level/feed/?simply_static_page=375
+[2024-11-04 16:50:23] [class-ss-url-fetcher.php:103] Filesize: 876 bytes
+[2024-11-04 16:50:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-04 16:50:23] [class-ss-url-fetcher.php:233] New filename for static page: /schools-close-in-lahore-as-pollution-hits-record-level/feed/index.xml
+[2024-11-04 16:50:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb4ec365e-itgDrb.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/schools-close-in-lahore-as-pollution-hits-record-level/feed/index.xml
+[2024-11-04 16:50:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:23] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-04 16:50:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:23] [class-ss-page.php:119] Checking Content Identical:366f6f40f7285a6c12716761bb131fee7f3fcec5===. Value: FALSE
+[2024-11-04 16:50:23] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/ai-and-bots-allegedly-used-to-fraudulently-boost-music-streams/feed/
+[2024-11-04 16:50:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 90
+[2024-11-04 16:50:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb4fa516b-cAz6XZ.tmp
+[2024-11-04 16:50:23] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/ai-and-bots-allegedly-used-to-fraudulently-boost-music-streams/feed/?simply_static_page=376
+[2024-11-04 16:50:23] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/ai-and-bots-allegedly-used-to-fraudulently-boost-music-streams/feed/?simply_static_page=376
+[2024-11-04 16:50:53] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2024-11-04 16:50:53] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30001 milliseconds with 0 bytes received
+[2024-11-04 16:50:53] [class-ss-url-fetcher.php:107] object(WP_Error)#935 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30001 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2024-11-04 16:50:53] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/pakistan-ranked-among-top-countries-in-cybersecurity-says-it-minister/feed/
+[2024-11-04 16:50:53] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 90
+[2024-11-04 16:50:53] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:53] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6db195b-bHxydd.tmp
+[2024-11-04 16:50:53] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/pakistan-ranked-among-top-countries-in-cybersecurity-says-it-minister/feed/?simply_static_page=377
+[2024-11-04 16:50:53] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/pakistan-ranked-among-top-countries-in-cybersecurity-says-it-minister/feed/?simply_static_page=377
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 922 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /pakistan-ranked-among-top-countries-in-cybersecurity-says-it-minister/feed/index.xml
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6db195b-bHxydd.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/pakistan-ranked-among-top-countries-in-cybersecurity-says-it-minister/feed/index.xml
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 2 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:2f3f161528a776f17bee4d793d981ade4eeda66e===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-brands-400.woff2
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 90
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6f3b8d4-InsSYb.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-brands-400.woff2?simply_static_page=378
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-brands-400.woff2?simply_static_page=378
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 109808 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-brands-400.woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6f3b8d4-InsSYb.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-brands-400.woff2
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:373361ed756b1fe68ce2f5968d467826b6973bb5===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-brands-400.ttf
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 90
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6f46e36-q3MmJX.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-brands-400.ttf?simply_static_page=379
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-brands-400.ttf?simply_static_page=379
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 189684 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-brands-400.ttf
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6f46e36-q3MmJX.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-brands-400.ttf
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:d8b3568e9d8a1d3c01c85520eb9ca0b49b72815d===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-regular-400.woff2
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 90
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6f54f68-a7mUqs.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-regular-400.woff2?simply_static_page=380
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-regular-400.woff2?simply_static_page=380
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 24488 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-regular-400.woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6f54f68-a7mUqs.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-regular-400.woff2
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:07fc0ae14bb3187839082aed3bca11dfb1e04524===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-regular-400.ttf
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 90
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6f6559e-QgrHhN.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-regular-400.ttf?simply_static_page=381
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-regular-400.ttf?simply_static_page=381
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 63348 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-regular-400.ttf
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6f6559e-QgrHhN.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-regular-400.ttf
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:2d7890e12afb77490112ec57fe47ca0688aebda2===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-solid-900.woff2
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 90
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6f73989-5VEHCw.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-solid-900.woff2?simply_static_page=382
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-solid-900.woff2?simply_static_page=382
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 150020 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-solid-900.woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6f73989-5VEHCw.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-solid-900.woff2
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:97f0942c6627ddd89fb62170e5cac9a2cbd6c98c===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-solid-900.ttf
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 90
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6f7ed5f-qODWfd.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-solid-900.ttf?simply_static_page=383
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-solid-900.ttf?simply_static_page=383
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 394668 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-solid-900.ttf
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6f7ed5f-qODWfd.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-solid-900.ttf
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:e9ace557c3aa403307f1e7a2cef1c035d522b94b===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-v4compatibility.woff2
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 90
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6f8e75e-XnmNf2.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-v4compatibility.woff2?simply_static_page=384
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-v4compatibility.woff2?simply_static_page=384
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 4568 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-v4compatibility.woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6f8e75e-XnmNf2.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-v4compatibility.woff2
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:35794892fa2b4aede41ec686df49a1283ab2b2b3===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-v4compatibility.ttf
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 90
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6f9936b-6jkaPK.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-v4compatibility.ttf?simply_static_page=385
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-v4compatibility.ttf?simply_static_page=385
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 10172 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-sfnt
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-v4compatibility.ttf
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6f9936b-6jkaPK.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/lib/fontawesome/webfonts/fa-v4compatibility.ttf
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:321d89c65f1746f111341556bc62c7e217ad2544===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 51 of 90 pages/files
+[2024-11-04 16:50:55] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-04 16:50:55] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-04 16:50:55] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:69] Total pages: 101; Pages remaining: 11
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 101
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6fbe10a-2IW6K5.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2?simply_static_page=386
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2?simply_static_page=386
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 25888 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6fbe10a-2IW6K5.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:64f37addfe426c0b3e76ef20af803191c38df5b3===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 101
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6fca8bb-sgLTmz.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2?simply_static_page=387
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2?simply_static_page=387
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 18740 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6fca8bb-sgLTmz.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:d83a47942575eeb80d30ebc7bf9a5b6f83c930fb===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 101
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6fd93f4-R1B1fw.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2?simply_static_page=388
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2?simply_static_page=388
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 11200 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6fd93f4-R1B1fw.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:e1126a9007d27dae496647ac1b97356ebf38671c===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 101
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6fe513a-ahuGNb.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2?simply_static_page=389
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2?simply_static_page=389
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 19072 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6fe513a-ahuGNb.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:55] [class-ss-page.php:119] Checking Content Identical:c475178f5395eb2c2d556c8f0e9250237c019dc8===. Value: FALSE
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 101
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb6feecef-swl9Ew.tmp
+[2024-11-04 16:50:55] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2?simply_static_page=390
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2?simply_static_page=390
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:103] Filesize: 10252 bytes
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb6feecef-swl9Ew.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2
+[2024-11-04 16:50:55] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:56] [class-ss-page.php:119] Checking Content Identical:9c1cad863a03434fb9c1501e9dd27ac14ed7cf63===. Value: FALSE
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2
+[2024-11-04 16:50:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 101
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb7004c30-xKkyj2.tmp
+[2024-11-04 16:50:56] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2?simply_static_page=391
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2?simply_static_page=391
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:103] Filesize: 74328 bytes
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb7004c30-xKkyj2.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:56] [class-ss-page.php:119] Checking Content Identical:ee0ebd2ef047937cd8ca547172229155813ff939===. Value: FALSE
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2
+[2024-11-04 16:50:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 101
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb70191d7-Qrtzwz.tmp
+[2024-11-04 16:50:56] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2?simply_static_page=392
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2?simply_static_page=392
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:103] Filesize: 48444 bytes
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb70191d7-Qrtzwz.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/fonts/inter/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:56] [class-ss-page.php:119] Checking Content Identical:d7402416753ae1bb4cbd4b10d33a0c10517838bd===. Value: FALSE
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/fonts/jost/92zatBhPNqw73oDd4iYl.woff2
+[2024-11-04 16:50:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 101
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb70244ab-HYQQ2t.tmp
+[2024-11-04 16:50:56] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/fonts/jost/92zatBhPNqw73oDd4iYl.woff2?simply_static_page=393
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/fonts/jost/92zatBhPNqw73oDd4iYl.woff2?simply_static_page=393
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:103] Filesize: 10140 bytes
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/jost/92zatBhPNqw73oDd4iYl.woff2
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb70244ab-HYQQ2t.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/fonts/jost/92zatBhPNqw73oDd4iYl.woff2
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:56] [class-ss-page.php:119] Checking Content Identical:e31eaf5c752b31c26a86a3626aa6fd8660963225===. Value: FALSE
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/fonts/jost/92zatBhPNqw73ord4iYl.woff2
+[2024-11-04 16:50:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 101
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb702f590-SYIhpM.tmp
+[2024-11-04 16:50:56] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/fonts/jost/92zatBhPNqw73ord4iYl.woff2?simply_static_page=394
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/fonts/jost/92zatBhPNqw73ord4iYl.woff2?simply_static_page=394
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:103] Filesize: 17104 bytes
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/jost/92zatBhPNqw73ord4iYl.woff2
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb702f590-SYIhpM.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/fonts/jost/92zatBhPNqw73ord4iYl.woff2
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:56] [class-ss-page.php:119] Checking Content Identical:2b2ae750b21f9c23207d09feae48721e3afe2eca===. Value: FALSE
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/fonts/jost/92zatBhPNqw73oTd4g.woff2
+[2024-11-04 16:50:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 101
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb703902b-jrvIvF.tmp
+[2024-11-04 16:50:56] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/fonts/jost/92zatBhPNqw73oTd4g.woff2?simply_static_page=395
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/fonts/jost/92zatBhPNqw73oTd4g.woff2?simply_static_page=395
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:103] Filesize: 26576 bytes
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/font-woff2
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/fonts/jost/92zatBhPNqw73oTd4g.woff2
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb703902b-jrvIvF.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/fonts/jost/92zatBhPNqw73oTd4g.woff2
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:56] [class-ss-page.php:119] Checking Content Identical:d3fc5b412c86d44da139622eb1712e22c3c510e0===. Value: FALSE
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:72] URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/images/loader/loader_one.gif
+[2024-11-04 16:50:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 101
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb7046b56-nUOZwq.tmp
+[2024-11-04 16:50:56] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/wp-content/themes/digital-newspaper/assets/images/loader/loader_one.gif?simply_static_page=396
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/wp-content/themes/digital-newspaper/assets/images/loader/loader_one.gif?simply_static_page=396
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:103] Filesize: 63016 bytes
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/digital-newspaper/assets/images/loader/loader_one.gif
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb7046b56-nUOZwq.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623/wp-content/themes/digital-newspaper/assets/images/loader/loader_one.gif
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-11-04 16:50:56] [class-ss-page.php:119] Checking Content Identical:bf2cc4cd361dae3dac5c396fecacb875b4b09139===. Value: FALSE
+[2024-11-04 16:50:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 90 of 101 pages/files
+[2024-11-04 16:50:56] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-11-04 16:50:56] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-11-04 16:50:56] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-11-04 16:50:56] [class-ss-fetch-urls-task.php:69] Total pages: 101; Pages remaining: 0
+[2024-11-04 16:50:56] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 101 of 101 pages/files
+[2024-11-04 16:50:56] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-11-04 16:50:56] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-11-04 16:50:56] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-11-04 16:50:56] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/6728fb705a689-JJM0LT.tmp
+[2024-11-04 16:50:56] [class-ss-page-handler.php:38] URL Prepared:http://newshub.local/1730739057?simply_static_page=0
+[2024-11-04 16:50:56] [class-ss-url-fetcher.php:251] Fetching URL: http://newshub.local/1730739057?simply_static_page=0
+[2024-11-04 16:51:02] [class-ss-url-fetcher.php:103] Filesize: 43432 bytes
+[2024-11-04 16:51:02] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-11-04 16:51:02] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-11-04 16:51:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/6728fb705a689-JJM0LT.tmp to C:\Users\Amy\Local Sites\newshub\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1730738623\404/index.html
+[2024-11-04 16:51:02] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-11-04 16:51:03] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-11-04 16:51:03] [class-ss-page.php:119] Checking Content Identical:e11c16d661c184a82bd078574894fadc46ebe64d===. Value: FALSE
+[2024-11-04 16:51:03] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-11-04 16:51:03] [class-ss-archive-creation-job.php:175] We've found our next task: create_zip_archive
+[2024-11-04 16:51:03] [class-ss-archive-creation-job.php:136] Current task: create_zip_archive
+[2024-11-04 16:51:03] [class-ss-archive-creation-job.php:153] Performing task: create_zip_archive
+[2024-11-04 16:51:03] [class-ss-create-zip-archive.php:78] Fetching list of files to include in zip
+[2024-11-04 16:51:04] [class-ss-create-zip-archive.php:87] Creating zip archive
+[2024-11-04 16:51:04] [class-ss-task.php:44] Status message: [create_zip_archive] ZIP archive created:  <a href="http://newshub.local/wp-content/uploads/simply-static/temp-files/simply-static-1-1730738623.zip">Click here to download</a>
+[2024-11-04 16:51:04] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-11-04 16:51:04] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-11-04 16:51:04] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-11-04 16:51:04] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-11-04 16:51:04] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-11-04 16:51:04] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-11-04 16:51:04] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-11-04 16:51:04] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:07:21
