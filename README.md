@@ -11,5 +11,3 @@ Plugin Usage Tutorial:
 
 Project Demo:
 
-Uploading 1105(1).mp4…
-
