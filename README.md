@@ -8,7 +8,9 @@ TEAM MEMBER : AMRAH IMTIAZ
 
 Theme How to Use:
 
-Plugin How to Use:
+
+
+Plugin Usage Tutorial:
 ![NewsHub and Custom Social](https://github.com/AmrahImtiaz/HackByte/raw/main/1.PNG)
 
 
