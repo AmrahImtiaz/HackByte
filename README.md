@@ -11,7 +11,7 @@ Theme How to Use:
 
 
 Plugin Usage Tutorial:
-![NewsHub and Custom Social](https://github.com/AmrahImtiaz/HackByte/raw/main/demo1.jpg)
+![NewsHub and Custom Social](https://github.com/AmrahImtiaz/HackByte/raw/main/demo1.png)
 
 
 
