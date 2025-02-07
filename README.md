@@ -10,8 +10,7 @@
 ![NewsHub and Custom Social](https://github.com/AmrahImtiaz/HackByte/raw/main/demo1.PNG)
 
 ### Project Demo:
-
-
-
 https://github.com/user-attachments/assets/5b36a9e0-e6de-4e98-af52-33752842e2f8
-
+--------
+CERTIFICATE OF PARTICIPATION:
+![Amrah Imtiaz](https://github.com/user-attachments/assets/611b797e-c318-4dc2-af1f-f1fa6be3d114)
